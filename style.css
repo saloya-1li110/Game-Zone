@@ -1,0 +1,119 @@
+*{
+    font-family: 'Work Sans',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 4px 30px 0px reba(0,0,00.05);
+    padding: 20px 0px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.logo img{
+    width: 5rem;
+    height: 2rem;
+}
+.logo h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.logo h2 span{
+    color: #FF42A5;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menu li{
+    font-size: 1.rem;
+    font-weight: 500;
+    list-style: none;
+}
+.menu li:last-child{
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding:16px;
+   
+}
+.menu i{
+    font-size: 24px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 40px 170px;
+    align-items: center;
+    background-position: left;
+    background-image: url('./images/Group 14.png');
+}
+.bannar1 p{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.bannar1 h5{
+    border-radius: 50%;
+    font-size: 5.94rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #c24ff0;
+    margin-bottom: 24px;  
+    text-align: center;
+}
+.bannar img{
+    display: flex;
+    width: 50%;
+}
+  .img img{
+    width: 100%;
+  }
+
+.bannar1 li{
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin:17px 0;
+}
+.bannar1 i{
+    align-items: center;
+    margin-right: 10px;
+    font-size: 20px;
+    width:24px;
+    height: 24px;
+}
+.sign-in-btn:hover,
+.go-btn:hover {
+  background-color: #555555;
+}
+.sign-in-btn,
+.go-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff42ef;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 40px;
+}
+.go-btn{
+    background-color: #42baff;
+}
