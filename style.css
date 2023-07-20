@@ -354,3 +354,72 @@ figure:hover .box{
     padding-left: 250px;
     
 }
+.game{
+    margin:100px 0 0 0;
+    padding-top:100px;
+    padding-bottom: 100px;
+    background-color: rgba(255, 66, 164, 0.1);
+}
+.game1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content: center;
+     column-gap: 5px;
+     row-gap: 15px;
+}
+.btn2{
+    display: flex;
+    align-items:center;
+    gap:15px;
+    border:none;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: #0B0223;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn2:hover{
+    border:2px solid #FF42A5;
+    color: #FF42A5;
+}
+.btn2 img{
+    height: 60px;
+    width: 80px;
+}
+footer{
+    background-color:#0B0223;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+    padding:100px;
+}
+footer .logo{
+    color: white;
+}
+.footer0{
+    display: flex;
+    color:rgba(255, 255, 255, 0.60);
+    gap: 25px;
+    color: white;
+}
+.footer1{
+    display: flex;
+    gap:40px;
+    cursor: pointer;
+    cursor: pointer;
+}
+.footer2{
+    display: flex;
+    gap: 40px;
+    color: white;
+  
+}
+.footer3{
+display: inline-block;
+color:rgba(255, 255, 255, 0.60);
+}
+
