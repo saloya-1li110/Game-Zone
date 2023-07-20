@@ -411,7 +411,7 @@ footer .logo{
     display: flex;
     gap:40px;
     cursor: pointer;
-    cursor: pointer;
+    
 }
 .footer2{
     display: flex;
@@ -421,6 +421,7 @@ footer .logo{
 }
 .footer3{
 display: inline-block;
-color:rgba(255, 255, 255, 0.60);
+color:rgba(255, 255, 255, 0.644);
+cursor: pointer;
 }
 
